@@ -1,6 +1,6 @@
 # Codility Tests
 
-* [CyclicRotation](https://codility.com/demo/results/trainingASEHVN-7VQ/)
+* [CyclicRotation](https://codility.com/demo/results/trainingASEHVN-7VQ/) (100%)
 Rotate an array to the right by a given number of steps.
 
 ```python
@@ -17,7 +17,7 @@ def solution(A, K):
     return B
 ```
 
-* [OddOccurrencesInArray](https://codility.com/demo/results/trainingGZAR3J-BPH/)
+* [OddOccurrencesInArray](https://codility.com/demo/results/trainingGZAR3J-BPH/) (55%)
 Find value that occurs in odd number of elements.
 
 ```python
