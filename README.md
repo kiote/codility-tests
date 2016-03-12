@@ -26,3 +26,16 @@ def solution(A):
         if A.count(value) == 1:
             return value
 ```
+
+* [OddOccurenciesInArray]() (100%)
+
+```python
+def solution(A):
+    count = {}
+    for i in A:
+        count[i] = count.get(i, 0) + 1
+        
+    for val in count.values():
+        if val % 2 != 0:
+            return count.keys()[count.values().index(val)]
+```
