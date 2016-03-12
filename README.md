@@ -27,7 +27,7 @@ def solution(A):
             return value
 ```
 
-* [OddOccurenciesInArray]() (100%)
+* [OddOccurenciesInArray](https://codility.com/demo/results/trainingZ38Y5B-Y5R/) (100%)
 
 ```python
 def solution(A):
