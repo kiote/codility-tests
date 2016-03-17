@@ -39,3 +39,19 @@ def solution(X, Y, D):
         res += 1
     return res
 ```
+
+* [TapeEquilibrium](https://codility.com/demo/results/trainingVQQU3M-EGK/)
+
+```python
+def solution(A):
+    min_p = 0
+    min_diff = abs(0 - sum(A))
+    
+    for p in range(1, len(A)):
+        current_diff = abs(sum(A[:p]) - sum(A[p:]))
+        if current_diff < min_diff:
+            min_p = p
+            min_diff = current_diff
+            
+    return min_diff
+```
